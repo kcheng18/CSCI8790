@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Ks-H0FbnEeudK7pp83xkUw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_UT8pIFbnEeudK7pp83xkUw" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_guYJgFbnEeudK7pp83xkUw" elementId="project-ex-0114-mainmenu-cheng.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_pM6cEFbnEeudK7pp83xkUw" elementId="project-ex-0114-mainmenu-cheng.menu.mymainmenucheng" label="My Main Menu CHENG">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_x1kT8FbnEeudK7pp83xkUw" elementId="project-ex-0114-mainmenu-cheng.handledmenuitem.showhelloworld" label="Show Hello World"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_yey3IFbnEeudK7pp83xkUw" elementId="project-ex-0114-mainmenu-cheng.handledmenuitem.showmylastname" label="Show My Last Name"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
