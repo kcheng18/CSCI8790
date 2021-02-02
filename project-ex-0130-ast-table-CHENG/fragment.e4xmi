@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_lrGmYGWGEeutCq9foiqHiA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rCycwGWGEeutCq9foiqHiA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_xLncMGWGEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.partdescriptor.simpletableviewast0130cheng" label="Simple Table View AST 0130 CHENG" iconURI="platform:/plugin/project-ex-0130-ast-table-CHENG/icons/sample.png" contributionURI="bundleclass://project-ex-0130-ast-table-CHENG/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_gZzSkGWLEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.popupmenu.0">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_hQAh0GWLEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.handledmenuitem.refresh" label="Refresh" command="_WoDEoGWLEeutCq9foiqHiA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_XoMdkGWMEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.handledmenuitem.export" label="Export" command="_ZiyXcGWLEeutCq9foiqHiA"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NxZNAGWLEeutCq9foiqHiA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_Skg9wGWLEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.handler.0" contributionURI="bundleclass://project-ex-0130-ast-table-CHENG/handler.RefreshHandler" command="_WoDEoGWLEeutCq9foiqHiA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_TTgKsGWLEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.handler.1" contributionURI="bundleclass://project-ex-0130-ast-table-CHENG/handler.ExportHandler" command="_ZiyXcGWLEeutCq9foiqHiA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_PVn_4GWLEeutCq9foiqHiA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_WoDEoGWLEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.command.refresh" commandName="Refresh"/>
+    <elements xsi:type="commands:Command" xmi:id="_ZiyXcGWLEeutCq9foiqHiA" elementId="project-ex-0130-ast-table-cheng.command.export" commandName="Export"/>
+  </fragments>
+</fragment:ModelFragments>
