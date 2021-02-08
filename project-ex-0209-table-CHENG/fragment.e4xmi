@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_YgYaUGngEeutCq9foiqHiA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Zke7oGngEeutCq9foiqHiA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_fKPDMGngEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.partdescriptor.simpletableaddingdeletingcheng" label="Simple Table Adding Deleting CHENG" iconURI="platform:/plugin/project-ex-0209-table-CHENG/icons/sample.png" contributionURI="bundleclass://project-ex-0209-table-CHENG/view.SimpleTableView0209Cheng">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_smi3UGngEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_7CbSEGngEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.handledmenuitem.add" label="Add" command="_IxvhwGnhEeutCq9foiqHiA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_7oZs8GngEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.handledmenuitem.delete" label="Delete" command="_MDjQwGnhEeutCq9foiqHiA"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_COXUUGnhEeutCq9foiqHiA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_PR1xsGnhEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.handler.0" contributionURI="bundleclass://project-ex-0209-table-CHENG/handler.TableAddHandler" command="_IxvhwGnhEeutCq9foiqHiA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_Vq6MkGnhEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.handler.1" contributionURI="bundleclass://project-ex-0209-table-CHENG/handler.TableDeleteHandler" command="_MDjQwGnhEeutCq9foiqHiA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_CvJGIGnhEeutCq9foiqHiA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_IxvhwGnhEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.command.add" commandName="Add"/>
+    <elements xsi:type="commands:Command" xmi:id="_MDjQwGnhEeutCq9foiqHiA" elementId="project-ex-0209-table-cheng.command.delete" commandName="Delete"/>
+  </fragments>
+</fragment:ModelFragments>
