@@ -37,6 +37,6 @@ public class TableAddHandler {
 		   }		
 	}
 	private static String getFilePath() {
-		return "/Users/kwoksuncheng/workspaceCSCI8790/workspaceCSCI8790-CHENG/project-ex-0209-table-CHENG/input_add.txt";
+		return "/Users/kwoksuncheng/git/CSCI8790/project-ex-0209-table-CHENG/input_add.txt";
 	}
 }

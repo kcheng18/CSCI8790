@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VOx6oGsoEeutCq9foiqHiA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_WBoT4GsoEeutCq9foiqHiA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_eDeqcGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.partdescriptor.simpletableview-deleteasts-0209cheng" label="Simple Table View - Delete ASTs - 0209 CHENG" iconURI="platform:/plugin/project-q1-0209-type-delete-ast-CHENG/icons/sample.png" contributionURI="bundleclass://project-q1-0209-type-delete-ast-CHENG/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_mKnwsGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_oYcTIGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handledmenuitem.analyzeprogram" label="Analyze Program" command="_5_HO4GsoEeutCq9foiqHiA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_o3iC4GsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handledmenuitem.deleteprivatemethod" label="Delete Private Method" command="_6huMsGsoEeutCq9foiqHiA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pT85IGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handledmenuitem.deletepublicmethod" label="Delete Public Method" command="_68uGoGsoEeutCq9foiqHiA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pyhEcGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handledmenuitem.deletenonparametermethod" label="Delete Non Parameter Method" command="_7fh4wGsoEeutCq9foiqHiA"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_0DhaMGsoEeutCq9foiqHiA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="__n4OMGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handler.0" contributionURI="bundleclass://project-q1-0209-type-delete-ast-CHENG/handler.AnalyzeProgramHandler" command="_5_HO4GsoEeutCq9foiqHiA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_AHQR0GspEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handler.1" contributionURI="bundleclass://project-q1-0209-type-delete-ast-CHENG/handler.DeletePrivateMethodHandler" command="_6huMsGsoEeutCq9foiqHiA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_AnZKcGspEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handler.2" contributionURI="bundleclass://project-q1-0209-type-delete-ast-CHENG/handler.DeletePublicMethodHandler" command="_68uGoGsoEeutCq9foiqHiA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_BDcNQGspEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.handler.3" contributionURI="bundleclass://project-q1-0209-type-delete-ast-CHENG/handler.DeleteNonParameterMethodHandler" command="_7fh4wGsoEeutCq9foiqHiA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_0ls6MGsoEeutCq9foiqHiA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_5_HO4GsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.command.analyzeprogram" commandName="Analyze Program"/>
+    <elements xsi:type="commands:Command" xmi:id="_6huMsGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.command.deleteprivatemethod" commandName="Delete Private Method"/>
+    <elements xsi:type="commands:Command" xmi:id="_68uGoGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.command.deletepublicmethod" commandName="Delete Public Method"/>
+    <elements xsi:type="commands:Command" xmi:id="_7fh4wGsoEeutCq9foiqHiA" elementId="project-q1-0209-type-delete-ast-cheng.command.deletenonparametermethod" commandName="Delete Non Parameter Method"/>
+  </fragments>
+</fragment:ModelFragments>
