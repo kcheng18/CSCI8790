@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_o8di4Go7EeutCq9foiqHiA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_r736UGo7EeutCq9foiqHiA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_uphzYGo7EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.partdescriptor.simpletableview-deletemethodast-0211cheng" label="Simple Table View - Delete Method AST - 0211CHENG" iconURI="platform:/plugin/project-ex-0211-type-delete-ast-CHENG/icons/sample.png" contributionURI="bundleclass://project-ex-0211-type-delete-ast-CHENG/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_8vQX8Go7EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_AKhk8Go8EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.handledmenuitem.analyzeprogram" label="Analyze Program" command="_W3wK0Go8EeutCq9foiqHiA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_AyRhcGo8EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.handledmenuitem.deleteprivatemethod" label="Delete Private Method" command="_XUApAGo8EeutCq9foiqHiA"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OjvGMGo8EeutCq9foiqHiA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_SJFcQGo8EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.handler.0" contributionURI="bundleclass://project-ex-0211-type-delete-ast-CHENG/handler.AnalyzeHandler" command="_W3wK0Go8EeutCq9foiqHiA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_SoFscGo8EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.handler.1" contributionURI="bundleclass://project-ex-0211-type-delete-ast-CHENG/handler.DeletePrivateMethodHandler" command="_XUApAGo8EeutCq9foiqHiA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_PAVioGo8EeutCq9foiqHiA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_W3wK0Go8EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.command.analyzeprogram" commandName="Analyze Program"/>
+    <elements xsi:type="commands:Command" xmi:id="_XUApAGo8EeutCq9foiqHiA" elementId="project-ex-0211-type-delete-ast-cheng.command.deleteprivatemethod" commandName="Delete Private Method"/>
+  </fragments>
+</fragment:ModelFragments>
