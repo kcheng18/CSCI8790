@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_B-O8sHYNEeuwIIsWF3KUJw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_DDrh0HYNEeuwIIsWF3KUJw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_Ghu9EHYNEeuwIIsWF3KUJw" elementId="project-ex-0218-tree-cheng.partdescriptor.simpletreecheng" label="Simple Tree CHENG" iconURI="platform:/plugin/project-ex-0218-tree-CHENG/icons/sample.png" contributionURI="bundleclass://project-ex-0218-tree-CHENG/view.Viewer"/>
+  </fragments>
+</fragment:ModelFragments>
