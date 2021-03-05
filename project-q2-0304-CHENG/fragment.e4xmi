@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_p7Q5cH0_EeukN5e7_Z1Jmw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rATO4H0_EeukN5e7_Z1Jmw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_vNmVwH0_EeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.partdescriptor.simpleviewq2cheng" label="Simple View Q2 CHENG" iconURI="platform:/plugin/project-q2-0304-CHENG/icons/sample.png" contributionURI="bundleclass://project-q2-0304-CHENG/view.SimpleViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rpQsUH0_EeukN5e7_Z1Jmw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_RyUuEH1AEeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.handler.0" contributionURI="bundleclass://project-q2-0304-CHENG/handler.DefUseAnalysisForPublicMethodsHandler" command="_M_HdwH1AEeukN5e7_Z1Jmw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_SQ8jwH1AEeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.handler.1" contributionURI="bundleclass://project-q2-0304-CHENG/handler.DefUseAnalysisForNonParameterMethodsHandler" command="_NiTqYH1AEeukN5e7_Z1Jmw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_Sx4GkH1AEeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.handler.2" contributionURI="bundleclass://project-q2-0304-CHENG/handler.DefUseAnalysisForVoidReturnMethodsHandler" command="_OE72UH1AEeukN5e7_Z1Jmw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_sDaRsH0_EeukN5e7_Z1Jmw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_M_HdwH1AEeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.command.defuseanalysisforpublicmethods" commandName="Def Use Analysis for Public Methods"/>
+    <elements xsi:type="commands:Command" xmi:id="_NiTqYH1AEeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.command.defuseanalysisfornon-parametermethods" commandName="Def Use Analysis for Non-Parameter Methods"/>
+    <elements xsi:type="commands:Command" xmi:id="_OE72UH1AEeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.command.defuseanalysisforvoid-returnmethods" commandName="Def Use Analysis for Void-Return Methods"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_XMmgcH13EeukN5e7_Z1Jmw" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_bwb4AH13EeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_mrAvMH13EeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.menu.defusemenucheng" label="Def Use Menu CHENG">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_rKJ0AH13EeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.handledmenuitem.defuseanalysisforpublicmethods" label="Def Use Analysis for Public Methods" command="_M_HdwH1AEeukN5e7_Z1Jmw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_rnWtYH13EeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.handledmenuitem.defuseanalysisfornon-parametermethods" label="Def Use Analysis for Non-Parameter Methods" command="_NiTqYH1AEeukN5e7_Z1Jmw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_sB1C4H13EeukN5e7_Z1Jmw" elementId="project-q2-0304-cheng.handledmenuitem.defuseanalysisforvoid-returnmethods" label="Def Use Analysis for Void-Return Methods" command="_OE72UH1AEeukN5e7_Z1Jmw"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
